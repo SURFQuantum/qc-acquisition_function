@@ -41,10 +41,10 @@ Future research topics:
 
     The cumulative regret equation used in the repository is derived from the standard definition of bandit-based regret, which measures the difference between the maximum achievable reward and the reward obtained. In the referenced paper, this 'maximum reward' corresponds to the maximum value of the function. However, in the context of function approximation, it is not necessarily the case that the 'best reward' corresponds to the global maximum; accurately estimating the true function values at the sampled points may be more relevant. For this reason, this definition of regret may not be fully appropriate in the context of function approximation.
 
-- Check whether the algorithm can locate the global minimum.. 
+- Check whether the algorithm can locate the global minimum.
 
     Since the algorithm can efficiently find the global maximum, it should also be able to identify the global minimum.
 
-- Experiment further with the number of iterations and Fourier features
+- Experiment further with the number of iterations and Fourier features.
 
     Test different iterations and Fourier feature amounts to determine the most accurate estimates. 
